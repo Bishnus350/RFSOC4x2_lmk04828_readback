@@ -20,3 +20,5 @@ The readback of the LMK clock is done to confirm that the clock file is loaded c
 - LMK04828 readback status raw register R392: 0x018800
 # Note: 0x18800 register is for PLL locked or unlocked status. 
 # Note:  Try using root mode "sudo" 
+# Note: ZCU216 board only communicate using i2c. 
+# Note: RFSOC4x2 board can communicate by both i2c and spidev
