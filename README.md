@@ -18,4 +18,5 @@ The readback of the LMK clock is done to confirm that the clock file is loaded c
 - PLL1 LD STAT: LOCK
 - LMK04828 readback status raw register R387: 0x018304
 - LMK04828 readback status raw register R392: 0x018800
-#Note: 0x18800 register is for PLL locked or unlocked status. 
+# Note: 0x18800 register is for PLL locked or unlocked status. 
+# Note:  Try using root mode "sudo" 
